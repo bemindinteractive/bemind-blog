@@ -61,7 +61,7 @@
         line-height: 1;
 
         &--bold {
-            font-weight: $font-weight-heavy;
+            font-weight: $font-weight-bold;
         }
         &--navbar {
             font-size: $font-size-small;
@@ -404,9 +404,4 @@
             @include push(2)
         }
     }
-}
-
-.band-app-download{
-    background: #3db8de;
-    height: 120px;
 }
